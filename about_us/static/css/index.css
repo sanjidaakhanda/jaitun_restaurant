@@ -1,0 +1,23 @@
+
+.about{
+    width: 300px;
+    height: 400px;
+    align-content: center;
+    
+    }
+   body {
+    background-color: aqua;
+   }
+   
+   @keyframes fadeIn {
+       from {
+           opacity: 0;
+       }
+       to {
+           opacity: 1;
+       }
+   }
+
+   .animated-heading {
+       animation: fadeIn 1s ease-in-out;
+   }

@@ -1,0 +1,11 @@
+*{
+    background-color: red;
+}
+.card-zoom {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-zoom:hover {
+    transform: scale(1.1);
+  }
+  
